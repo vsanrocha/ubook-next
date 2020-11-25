@@ -1,0 +1,22 @@
+@import "assets/sass/variables.scss";
+
+.searchInput {
+  height: 32px;
+  background-color: $pale-lilac;
+  border: none;
+  color: $bluey-grey;
+  border-radius: 4px;
+  font : {
+    family: "Roboto";
+    size: 1rem;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.icon {
+  position: absolute;
+  right: 25px;
+  top: 7px;
+}

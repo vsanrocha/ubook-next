@@ -1,0 +1,8 @@
+@import "./variables.scss";
+@import "~bootstrap/scss/bootstrap-grid";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $dark;
+  font-size: 0.875rem;
+}

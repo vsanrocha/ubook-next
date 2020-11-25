@@ -1,0 +1,51 @@
+@import "assets/sass/variables.scss";
+
+.table {
+  width: 100%;
+  border-radius: 4px;
+  border: solid $white 1px;
+  border-spacing: 0;
+  margin-top: 2rem;
+  overflow: hidden;
+  border-collapse: separate;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 4px;
+}
+.th {
+  height: 40px;
+  font-size: 0.8125rem;
+  font-weight: normal;
+  color: $bluey-grey;
+  padding: 8px;
+}
+.td {
+  height: 40px;
+  padding: 8px;
+  border-top: thin solid rgba(0, 0, 0, 0.12);
+}
+.tr {
+  &:hover {
+    background: $very-light-pink;
+  }
+}
+.badge {
+  padding: 4px 8px;
+  background-color: #fa8d68;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 500;
+}
+
+.highlight {
+  background: $very-light-pink;
+}
+
+.icon {
+  cursor: pointer;
+}

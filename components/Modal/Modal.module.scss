@@ -1,0 +1,66 @@
+@import "assets/sass/variables.scss";
+
+.modal {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $z-index-modal;
+  outline: none;
+}
+
+.modalContent {
+  border-radius: 4px;
+  overflow-y: auto;
+  pointer-events: auto;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 16px 10px 0 rgba(0, 0, 0, 0.16);
+  z-index: $z-index-modal-content;
+
+}
+
+.small {
+  width: 432px;
+}
+
+.title {
+  margin: 16px;
+  font-size: 1rem;
+}
+
+.divider {
+  display: block;
+  flex: 1 1 0px;
+  max-width: 100%;
+  height: 0;
+  max-height: 0;
+  border: solid $cloudy-blue;
+  border-width: thin 0 0;
+}
+
+.body {
+  margin: 16px
+}
+
+.footer {
+  margin: 16px;
+}
+
+.overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: $z-index-modal-overlay;
+}
