@@ -1,1 +1,21 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).# ubook-next
+# Ubook-Next
+
+Utilizando NextJs com Typescript
+
+## Installation
+
+```
+yarn install
+```
+
+### Usage
+
+```
+yarn dev
+```
+
+### Compiles and minifies for production
+
+```
+yarn build
+```
